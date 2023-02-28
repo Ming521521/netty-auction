@@ -1,0 +1,14 @@
+server:
+  port: 1010
+spring:
+  application:
+    name: netty-auction
+  datasource:
+    druid:
+      url: jdbc:mysql://42.192.81.195:3306/nety
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      username: Ming
+      password: Ming521521..
+mybatis-plus:
+  type-aliases-package: com.ming.netty.entity
+  mapper-locations: classpath*:/mapper/*.xml
